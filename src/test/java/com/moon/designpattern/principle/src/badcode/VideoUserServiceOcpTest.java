@@ -7,7 +7,7 @@ import org.junit.Test;
  * @author Chanmoey
  * @date 2023年03月04日
  */
-public class VideoUserServiceTest {
+public class VideoUserServiceOcpTest {
 
     @Test
     public void test() {
