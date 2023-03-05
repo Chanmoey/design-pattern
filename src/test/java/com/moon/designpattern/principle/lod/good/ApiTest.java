@@ -16,7 +16,7 @@ public class ApiTest {
     private Logger logger = LoggerFactory.getLogger(ApiTest.class);
 
     @Test
-    public void test_Principal() {
+    public void testPrincipal() {
         Principal principal = new Principal();
         Map<String, Object> map = principal.queryClazzInfo("3年1班");
         logger.info("查询结果：{}", JSON.toJSONString(map));
