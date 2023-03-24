@@ -195,3 +195,9 @@ new BufferedReader(new FileReader("""))
 
 将商品对象缓存到内存中，将库存记录到Redis，Redis负责扣减库存。
 
+### 代理模式
+
+通过一个类，去代理另一个类的内容
+
+例如Dao层，定义数据库访问接口，MyBatis通过代理去实际访问数据库。
+
